@@ -5,47 +5,35 @@
   },
   "blocks": [
     {
-      "_template": "navbar",
-      "banner": {
-        "display": false,
-        "text": "",
-        "link": ""
-      },
+      "headline": "Build with *your components*",
+      "subline": "Let your team build great layouts with your own React components.",
+      "codeSandbox": "https://codesandbox.io/embed/vigilant-cohen-73its?fontsize=147hidenavigation=17theme=dark",
+      "_template": "demo"
+    },
+    {
       "navItems": [
         {
-          "link": "/docs",
-          "label": "Docs"
-        },
-        {
-          "link": "/guides",
-          "label": "Guides"
-        },
-        {
-          "link": "/blog",
-          "label": "Blog"
-        },
-        {
-          "link": "/early-access",
-          "label": "Tina Cloud"
+          "label": "Docs",
+          "link": "/docs"
         }
       ]
     },
     {
       "_template": "hero",
-      "headline": "Unlock your team with *next-gen editing*",
-      "subline": "Tina is an open-source editor for Jamstack sites",
+      "headline": "Bangladesh Is Good",
+      "subline": "Testing JAMSTACK",
       "actions": [
-        {
-          "variant": "orange",
-          "label": "Try Demo",
-          "icon": "arrowRight",
-          "url": "https://tina-demo-two.vercel.app/"
-        },
         {
           "variant": "ghost",
           "label": "Read Docs",
           "icon": "",
           "url": "/docs"
+        },
+        {
+          "variant": "orange",
+          "label": "Try Demo",
+          "icon": "arrowRight",
+          "url": "https://tina-demo-two.vercel.app/"
         }
       ],
       "videoSrc": "v1571425758/tina-hero-demo-v2"
